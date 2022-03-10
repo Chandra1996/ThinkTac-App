@@ -1,0 +1,37 @@
+<header>
+    <div class="navbar  shadow-sm navbar-color navbar-media">
+        <div class="logo" routerLink='/subjectlist' >
+            ThinkTac
+        </div>
+        <div class="text-color nav justify-content-end padding-class">
+
+            
+            
+            <li ngbDropdown class="nav-item dropdown ">
+                <a ngbDropdownToggle class="nav-link dropdown-toggle anchor-color "  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SUBJECT
+                </a>
+                <ul ngbDropdownMenu class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a ngbDropdownItem class="dropdown-item" href="#">a</a></li>
+                  <li><a ngbDropdownItem class="dropdown-item" href="#">b</a></li>
+                  <li><a ngbDropdownItem class="dropdown-item" href="#">c</a></li>
+                </ul>
+              </li>
+            
+               
+            <li ngbDropdown class="nav-item dropdown ">
+                <a ngbDropdownToggle class="nav-link dropdown-toggle anchor-color"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LANGUAGE
+                </a>
+                <ul ngbDropdownMenu class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a ngbDropdownItem routerLink='/hindi' class="dropdown-item" >Hindi</a></li>
+                  <li><a ngbDropdownItem routerLink='/english' class="dropdown-item" >English</a></li>
+                  
+                </ul>
+              </li>
+            
+        </div>
+    </div>
+    
+
+</header>

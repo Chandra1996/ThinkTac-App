@@ -1,0 +1,30 @@
+.navbar-color{
+    /* background-color: rgb(48, 45, 63); */
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo{
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.text-color{
+    color: aliceblue;
+    text-transform: uppercase;
+    
+}
+
+.padding-class{
+    padding: 5px;
+}
+
+.anchor-color {
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

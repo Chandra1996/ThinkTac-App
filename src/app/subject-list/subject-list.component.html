@@ -1,0 +1,22 @@
+<div class="row justify-content-center search-div">
+    <div class="col-md-6 position-relative">
+        <input type="text" class="form-control" id="search" placeholder="Search Product" [(ngModel)]="nameSearch">
+        <span class='search-icon'><i class="fas fa-search"></i></span>
+    </div>
+</div>
+<div class="container-product-list">
+    <div class="row product-list">
+        <ng-container *ngFor="let item of subjectList | filter:nameSearch">
+            <div class="card col-md-3" style="width: 18rem;">
+                <div class="item-image">
+                    <img src="{{item.IconUrl}}" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class='item-title'>{{item.Name}}</h5>
+                    
+                   
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
